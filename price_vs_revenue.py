@@ -6,7 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 
-df=pd.read_csv("supply_chain_data.csv")
+df = pd.read_csv("../data/supply_chain_data.csv")
 df.head()
 
 # Bar graph of Price vs Revenue generated
